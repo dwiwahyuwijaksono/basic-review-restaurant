@@ -8,7 +8,7 @@ import com.example.restaurantreview.MainActivity
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
-
+//test perubahan 
 class MainViewModel: ViewModel() {
     private val _restaurant = MutableLiveData<Restaurant>()
     val restaurant: LiveData<Restaurant> = _restaurant
